@@ -1,0 +1,24 @@
+@import "Colors.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Raleway, sans-serif;
+}
+
+body {
+  background-color: $panel_dark;
+}
+
+.m-t-l {
+  margin-top: 20px;
+}
+
+.m-t-m {
+  margin-top: 10px;
+}
+
+.m-t-s {
+  margin-top: 5px;
+}

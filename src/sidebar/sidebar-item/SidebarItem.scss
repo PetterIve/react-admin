@@ -1,0 +1,15 @@
+@import '../../Colors.scss';
+
+.sidebar-item {
+  color: $text_light;
+  padding: 10px;
+  text-decoration: none;
+
+  &.active {
+    color: $text_colored;
+    border-right: 5px solid $text_colored;
+  }
+  &:hover {
+    text-decoration: underline;
+  }
+}

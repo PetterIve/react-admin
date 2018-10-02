@@ -1,0 +1,36 @@
+@import "../Colors.scss";
+
+.entity-details-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.entity-details-content {
+  padding-top: 20px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  padding: 5px;
+  border: 1px solid;
+}
+
+.entity-row {
+  cursor: pointer;
+}
+
+.search-input {
+  margin-top: 10px;
+  font-size: 20px;
+  border: 0;
+  border-bottom: 2px solid $panel_dark;
+  background-color: transparent;
+  outline: none;
+
+  &:focus {
+    border-bottom-color: $text_colored;
+  }
+}

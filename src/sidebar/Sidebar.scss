@@ -1,0 +1,8 @@
+@import '../Colors.scss';
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: $panel_dark;
+}

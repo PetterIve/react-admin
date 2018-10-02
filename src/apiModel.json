@@ -1,0 +1,50 @@
+{
+  "endpoints": [
+    {
+      "relativePath": "/users",
+      "displayName": "Users",
+      "endpointModel": {
+        "modelFields": [
+          {
+            "name": "id",
+            "verboseName": "User id",
+            "type": "STRING"
+          },
+          {
+            "name": "email",
+            "verboseName": "Email",
+            "type": "EMAIL"
+          },
+          {
+            "name": "name",
+            "verboseName": "Full name",
+            "type": "STRING"
+          }
+        ]
+      }
+    },
+    {
+      "relativePath": "/courses",
+      "displayName": "Courses",
+      "endpointModel": {
+        "modelFields": [
+          {
+            "name": "id",
+            "verboseName": "User id",
+            "type": "STRING"
+          },
+          {
+            "name": "email",
+            "verboseName": "Email",
+            "type": "EMAIL"
+          },
+          {
+            "name": "name",
+            "verboseName": "Full name",
+            "type": "STRING"
+          }
+        ]
+      }
+    }
+  ]
+}
